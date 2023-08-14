@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">GassLiburan</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="default_text">-</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="logout">Logout</string>
+    <string name="user_profile">Profil Pengguna</string>
+    <string name="error">Error</string>
+    <string name="tolong_tunggu">Tolong Tunggu</string>
+    <string name="berhasil">Berhasil</string>
+    <string name="please_field_your_name">Please field your name</string>
+    <string name="please_field_your_confirm_password">Please field your confirm password</string>
+    <string name="please_field_your_password_more_than_8">Please field your password more than 8</string>
+    <string name="please_field_your_confirm_password_more_than_8">Please field your confirm password more than 8</string>
+    <string name="your_password_didnt_match">Your password did\'nt match</string>
+    <string name="please_field_your_old_password">Please field your old password</string>
+    <string name="please_input_your_old_password_more_than_8">Please input your old password more than 8</string>
+    <string name="please_field_your_new_password">Please field your new password</string>
+    <string name="please_input_your_new_password_more_than_8">Please input your new password more than 8</string>
+    <string name="please_field_your_confirm_new_password">Please field your confirm new password</string>
+    <string name="please_input_your_confirm_new_password_more_than_8">Please input your confirm new password more than 8</string>
+    <string name="success_change_pass">Congratulation, your password has been change</string>
+    <string name="success_register">Congratulation, your account has been register</string>
+    <string name="success_forgot_pass">Congratulation, your link reset password has been sent to your email, please check it!</string>
+    <string name="please_field_your_email">Please field your email</string>
+    <string name="please_use_valid_email">Please use valid email</string>
+    <string name="please_field_your_password">Please field your password</string>
+    <string name="or">or</string>
+    <string name="from">from</string>
+    <string name="icorporation">Ilham &amp; Ibnu</string>
+    <string name="change_language">Change Language</string>
+    <string name="success">Success</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="success_book">Congratulation, Your ticket has been successfully booked</string>
+
+    <string-array name="title">
+        <item>Asia Heritage</item>
+        <item>Taman Rekreasi Alam Mayang</item>
+        <item>Rainbow Hills Rumbai</item>
+        <item>Candi Muara Takus</item>
+        <item>Kawah Biru Pekanbaru</item>
+        <item>Danau Lembah Sari</item>
+        <item>Arboretum Universitas Riau</item>
+        <item>Bukit Kapur Air Hitam</item>
+        <item>Pantai Cinta, Teluk Jering</item>
+        <item>Desa Wisata Okura</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>Asia Heritage adalah tempat wisata Pekanbaru yang bertemakan wisata ala negara-negara di Asia seperti Jepang, Korea Selatan, Tingkok, hingga Indonesia.</item>
+        <item>Wisata Pekanbaru yang pertama adalah Taman Rekreasi Alam Mayang. Mulai dari flying fox, banana boat, safari train, sepeda air, dan sebagainya.</item>
+        <item>Rainbow Hills Rumbai adalah wisata Pekanbaru yang juga tidak kalah cantiknya dengan Kawah Biru.Tempat wisata ini punya nama lain, yaitu Bukit Pelangi.</item>
+        <item>Candi Muara Takus menjadi satu-satunya candi yang ada di Riau.Candi ini dibuat dari batu pasir, batu bata, dan batu sungai.Tampilannya sangat eksotis dengan dominasi warna cokelat.</item>
+        <item>Wisata Pekanbaru yang berikutnya adalah Kawah Biru Pekanbaru.Tempat wisata ini memiliki pemandangan alam yang sangat indah dengan warna biru dan putih yang mendominasi.</item>
+        <item>Wisata Pekanbaru ini sangat cocok untuk kamu yang ingin menyendiri atau sekedar bersantai sejenak untuk melepas penat.Danau Lembah Sari merupakan sebuah danau buatan yang dijadikan sebagai tempat wisata.</item>
+        <item>Arboretum Universitas Riau adalah wisata Pekanbaru yang lokasinya memang berada di dalam kampus.Meski masuk area kampus, tapi tempat ini punya pemandangan yang sangat asri dan hijau.</item>
+        <item>Mendengar namanya yang unik, tempat wisata Pekanbaru ini menjadi spot wisata hits yang banyak dikunjungi oleh anak muda.Hal ini karena pemandangannya yang unik.</item>
+        <item>Wisata Pekanbaru yang sedang hits tak lengkap jika tidak memasukkan Pantai Cinta di dalam listnya.Pantai Cinta atau adalah sebuah tempat wisata yang sebenarnya adalah sungai yang ada di desa, yakni Desa Teluk Jering.</item>
+        <item>Desa Wisata Okura adalah wisata Pekanbaru terakhir yang sangat populer.Ada banyak kegiatan wisata yang bisa dilakukan di sini.Mulai dari menikmati kegiatan berkuda, bersepeda, dan lain sebagainya.</item>
+    </string-array>
+
+    <string-array name="address">
+        <item>Jalan Yos Sudarso Nomor Kilometer 12, Kelurahan Muara Fajar, Kecamatan Rumbai, Kota Pekanbaru, Riau</item>
+        <item>Jalan H. Imam Munandar, Taman Alam Mayang, Tengkerang Tim., Tenayan Raya, Kota Pekanbaru</item>
+        <item>Jalan Kemping, Kelurahan Lembah Sari, Kecamatan Rumbai Pesisir, Kota Pekanbaru, Riau</item>
+        <item>Kendalisodo, Pasir Jaya, Rambah Hilir, Pasir Jaya, Rambah Hilir, Kabupaten Rokan Hulu, Riau 28558</item>
+        <item>Jalan Karya Labersa, Tanah Merak, Kec. Siak Hulu, Kab. Kampar, Riau</item>
+        <item>Kelurahan Limbungan, Kecamatan Rumbai, Kota Pekanbaru, Riau</item>
+        <item>Jalan HR. Subantas Km. 12,5, Simpang Baru, Tampan, Pekanbaru, Riau</item>
+        <item>Jalan Syamsul Bahri, Kelurahan Air Hitam, Kecamatan Payung Sekaki, Kota Pekanbaru, Riau</item>
+        <item>Pantai Cinta Teluk Jering, Teluk Kenidai, Tambang, Tlk. Kenidai, Kecamatan Tambang, Kabupaten Kampar, Riau 28293</item>
+        <item>Jalan Raja Panjang Okura, Tebing Tinggi Okura, Kecamatan Rumbai Pesisir, Kota Pekanbaru, Riau 28262</item>
+    </string-array>
+
+
+    <array name="image">
+        <item>@drawable/asiaheritage</item>
+        <item>@drawable/alammayang</item>
+        <item>@drawable/rainbowhill</item>
+        <item>@drawable/muaratakus</item>
+        <item>@drawable/kawahbiru</item>
+        <item>@drawable/danausari</item>
+        <item>@drawable/arboretum</item>
+        <item>@drawable/bukitkapur</item>
+        <item>@drawable/pantaicinta</item>
+        <item>@drawable/wisataokura</item>
+    </array>
+
+    <string-array name="data_price">
+        <item>Rp 20.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lable_name">Judul</string>
+    <string name="lable_address">address</string>
+    <string name="populer">Most Popular</string>
+    <string name="see">See all</string>
+    <string name="lable_name_kind">kind</string>
+    <string name="lable_name_address">address</string>
+    <string name="lable_name_desc">desc</string>
+    <string name="lable_kind">kind</string>
+    <string name="popular">Popular</string>
+    <string name="lable_category_pempek">Pem-pek</string>
+    <string name="lable_category_truffle">Truffle</string>
+    <string name="lable_category_nasgor">Nasi Goreng wagyu</string>
+    <string name="lable_category_macaron">macaron</string>
+    <string name="lable_category_bakpia">bakpia</string>
+    <string name="lable_category_coto">coto makasr</string>
+    <string name="lable_category_kebab">kebab</string>
+    <string name="lable_category_stroberry">starwberry margarita</string>
+    <string name="lable_category_jkt">Jakarta</string>
+    <string name="lable_category_palembang">Palembang</string>
+    <string name="lable_category_lampung">Lampung</string>
+    <string name="lable_category_kalimantan">Kalimantan</string>
+    <string name="lable_category_surabaya">Surabaya</string>
+    <string name="lable_category_makasar">Makasar</string>
+    <string name="lable_category_bandung">Bandung</string>
+    <string name="lable_category_malang">Malang</string>
+    <string name="lable_map">Maps</string>
+    <string name="title">Title</string>
+    <string name="rating">Rating</string>
+    <string name="harga">Harga</string>
+    <string name="visit">Lihat Lokasi</string>
+    <string name="order">Pesan Tiket</string>
+    <string name="error_hotel_not_found" />
+
+</resources>

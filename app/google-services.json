@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "809949280330",
+    "firebase_url": "https://holiyay-e9062-default-rtdb.firebaseio.com",
+    "project_id": "holiyay-e9062",
+    "storage_bucket": "holiyay-e9062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809949280330:android:3dcdd7fc98664c39688eb3",
+        "android_client_info": {
+          "package_name": "com.example.holiyay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809949280330-mllh0da2smi653cod4ngfj608rargik0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_u9lwzKfIXOtB1bMow32Y0N1aVUCJ4bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809949280330-mllh0da2smi653cod4ngfj608rargik0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

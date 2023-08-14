@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".DetailPopularDestinationActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_backstage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_rightarrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_backstage"
+            android:text="Detail Destinasi"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/fm_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/iv_backstage">
+
+            <ImageView
+                android:id="@+id/iv_image_detail_popular"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/asiaheritage" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/lable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fm_detail_image"
+            android:layout_marginTop="24dp"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_name"
+            android:layout_marginTop="5dp"
+            android:paddingTop="5dp"
+            android:text="Lokasi"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/lable_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_name"
+            android:layout_marginStart="75dp"
+            android:layout_toEndOf="@id/address"
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/lable_address"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_marginTop="5dp"
+            android:paddingTop="5dp"
+            android:text="Deskripsi"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/lable_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_address"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/address"
+            android:maxLines="4"
+            android:paddingTop="5dp"
+            android:text="@string/lable_name_desc"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/txtprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_desc"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@id/btn_order"
+            android:text="@string/harga"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/order"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</ScrollView>

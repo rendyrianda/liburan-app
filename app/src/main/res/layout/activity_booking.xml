@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BookingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="@dimen/normal_100"/>
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_end="@dimen/normal_100"/>
+
+                <TextView
+                    android:id="@+id/tv_title_booking"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Pesanan Tiket"
+                    tools:text="Detail Booking"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/normal_125"
+                    app:layout_constraintStart_toStartOf="@id/guideline_start"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <TextView
+                    android:id="@+id/tv_name_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pemesan :"
+                    tools:text="Nama Pemesan : "
+                    android:textAlignment="center"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginStart="50dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/normal_125"
+                    app:layout_constraintTop_toBottomOf="@id/tv_title_booking"
+                    app:layout_constraintStart_toStartOf="@id/guideline_start"/>
+
+                <TextView
+                    android:id="@+id/tv_email_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email Pemesan :"
+                    tools:text="Email Pemesan : "
+                    android:textAlignment="center"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginStart="50dp"
+                    app:layout_goneMarginTop="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/normal_125"
+                    app:layout_constraintTop_toBottomOf="@id/tv_name_book"
+                    app:layout_constraintStart_toStartOf="@id/guideline_start"/>
+
+                <TextView
+                    android:id="@+id/tv_destinasi_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Destinasi :"
+                    tools:text="Nama Destinasi : "
+                    android:textAlignment="center"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginStart="50dp"
+                    app:layout_goneMarginTop="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/normal_125"
+                    app:layout_constraintTop_toBottomOf="@id/tv_email_book"
+                    app:layout_constraintStart_toStartOf="@id/guideline_start"/>
+
+                <TextView
+                    android:id="@+id/tv_name_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text"
+                    tools:text="Muhammad Azhari"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/subtitle_1"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/normal_125"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/tv_title_booking"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <TextView
+                    android:id="@+id/tv_email_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text"
+                    tools:text="ari@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginTop="@dimen/normal_125"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/tv_name_user"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <TextView
+                    android:id="@+id/lable_name_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text"
+                    tools:text="Nama Destinasi"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginTop="@dimen/normal_125"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/tv_email_user"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <TextView
+                    android:id="@+id/lable_desc_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text"
+                    tools:text="Nama Destinasi"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginTop="@dimen/normal_125"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/lable_name_book"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <TextView
+                    android:id="@+id/lable_address_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text"
+                    tools:text="Nama Destinasi"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginTop="@dimen/normal_125"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/lable_desc_book"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <TextView
+                    android:id="@+id/txt_price_book"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text"
+                    tools:text="Nama Destinasi"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/subtitle_1"
+                    android:layout_marginTop="@dimen/normal_125"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/lable_address_book"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"/>
+
+                <ImageView
+                    android:id="@+id/iv_image_detail_popular2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@id/txt_price_book"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/asiaheritage" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
